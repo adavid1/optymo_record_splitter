@@ -14,3 +14,4 @@ Les données d'entrée de l'aplication sont :
  - Tolérance du volume ignoré (valeur en % correspondant au volume sonore)
 		valeur conseillée : 30 (à ajuster en fonction des parasites)
 
+Une fois les données entrées et validées, l'application va créer un dossier au même endroit que le fichier audio source et le nommer à la date de l'enregistrement. Le dossier contiendra toutes les conversations découpées et datées.
