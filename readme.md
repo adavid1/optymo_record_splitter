@@ -1,17 +1,32 @@
 # Optymo Record Splitter
 
-Application permettant de découper des enregistrements radio journaliers en conversation triées et horodatées
+This application allows you to split daily radio recordings into sorted and timestamped conversations.
 
-## Mise au point du projet
-Sujet de Crunch Time 2019 en collaboration avec l'UTBM
+## Project Development
+Developed as a project for Crunch Time 2019 in collaboration with UTBM.
 
-## Tutoriel
-Les données d'entrée de l'aplication sont :
- - Le fichier audio (en .mp3)
- - La date et l'heure de début de l'enregistrement (permettant d'horodater les différents enregistrements)
- - Le tolérance de découpage minimale en minutes (permettant d'indiquer le temps minimun souhaité entre 2 conversation)
-		valeur conseillée : 60
- - Tolérance du volume ignoré (valeur en % correspondant au volume sonore)
-		valeur conseillée : 30 (à ajuster en fonction des parasites)
+## Tutorial
 
-Une fois les données entrées et validées, l'application va créer un dossier au même endroit que le fichier audio source et le nommer à la date de l'enregistrement. Le dossier contiendra toutes les conversations découpées et datées.
+The input data for the application includes:
+- **Audio File**: The radio recording in `.mp3` format.
+- **Start Date and Time**: The date and time when the recording started, used to timestamp the individual conversations.
+- **Minimum Split Tolerance (in minutes)**: The minimum desired time between two conversations.
+  - Recommended value: 60 minutes
+- **Ignored Volume Tolerance (in %)**: The volume level below which the audio is considered noise and ignored.
+  - Recommended value: 30% (adjust according to background noise)
+
+Once the input data is entered and confirmed, the application creates a folder in the same location as the source audio file, named after the recording date. This folder will contain all the split and timestamped conversations.
+
+## How to Use
+1. Launch the application.
+2. Input the required data:
+   - Select the `.mp3` audio file.
+   - Enter the start date and time of the recording.
+   - Set the minimum split tolerance in minutes.
+   - Set the ignored volume tolerance in percentage.
+3. Click on the confirm button to start the process.
+4. The application will create a folder named after the recording date in the same directory as the audio file. This folder will contain all the split conversations, each one timestamped.
+
+## Acknowledgements
+
+- UTBM for the collaboration and support during the development of this project.
