@@ -1,5 +1,5 @@
 # Optymo Record Splitter
-![2560px-Optymo svg](https://github.com/adavid1/optymo_record_splitter/assets/36786512/185454dd-5624-4100-9f99-e3b85af85d7f)
+![Optymo(1)](https://github.com/adavid1/optymo_record_splitter/assets/36786512/070a16ba-bd02-4cc3-8605-a36f970547e6)
 
 This application allows you to split daily radio recordings into sorted and timestamped conversations.
 
