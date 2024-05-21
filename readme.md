@@ -3,7 +3,7 @@
 This application allows you to split daily radio recordings into sorted and timestamped conversations.
 
 ## Project Development
-Developed as a project for Crunch Time 2019 in collaboration with UTBM.
+Developed as a project for Crunch Time 2019 in collaboration with UTBM. This project was requested by the company Optymo.
 
 ## Tutorial
 
@@ -17,6 +17,9 @@ The input data for the application includes:
 
 Once the input data is entered and confirmed, the application creates a folder in the same location as the source audio file, named after the recording date. This folder will contain all the split and timestamped conversations.
 
+### Note
+The GUI for this project is only available in French.
+
 ## How to Use
 1. Launch the application.
 2. Input the required data:
@@ -29,4 +32,5 @@ Once the input data is entered and confirmed, the application creates a folder i
 
 ## Acknowledgements
 
+- Optymo for requesting and supporting this project.
 - UTBM for the collaboration and support during the development of this project.
